@@ -1,0 +1,82 @@
+/* Reset & base styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar {
+    background-color: #fff; 
+    padding: 12px 0;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.navbar-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 16px;
+	height: 48px;
+	width: 1240px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 28px;
+    color: #000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+    max-width: 500px;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    font-size: 14px;
+    background-color: #F0F0F0;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 16px;
+    font-size: 22px;
+    color: #000;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #007bff;
+}

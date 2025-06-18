@@ -1,0 +1,95 @@
+.main-page {
+    display: block;
+    position: relative;
+    background-image: url('/assets/img/Rectangle\ 2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 663px;
+}
+
+.page-inner {
+    display: block;
+}
+.images{
+    position: relative;
+
+}
+.images img {
+    max-width: 1440px;
+    width: 100%;
+    height: 663px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text {
+    position: absolute;
+    width: 577px;
+    top: 150px;
+    left: 100px;
+    font-family: Integral CF;
+}
+
+.text p {
+
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.text .info {
+
+    top: 442px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Satoshi;
+    line-height: 22px;
+    margin: 20px 0;
+}
+
+.text button {
+
+    height: 52px;
+    width: 210px;
+    background-color: #000000;
+    border-radius: 62px;
+    outline: none;
+}
+
+.text a {
+    padding: 16px 54px 16px 54px;
+    color: #fff;
+    text-decoration: none;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.items {
+    width: 596px;
+    height: 74px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px 0;
+}
+
+.counter {
+    width: 141px;
+    height: 74px;
+}
+
+.counter h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.counter .count {
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
